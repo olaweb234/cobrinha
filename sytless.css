@@ -1,0 +1,33 @@
+#jogo {
+    background-color: black;
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    height: 800px;
+    border: 2px solid #000;
+    overflow: hidden;
+}
+
+#comida {
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.cobra {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    position: absolute;
+    border: 1px solid darkgreen;
+    box-sizing: border-box;
+}
+
+#placar {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    margin: 20px;
+}
